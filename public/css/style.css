@@ -1,0 +1,178 @@
+
+body {
+    background-image: linear-gradient(to right, #a8c0ff, #3f2b96 );
+    color: black;
+    font-family: arial;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+header p {
+    margin-top: -45px;
+}
+
+
+.weatherInfo {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-family: arial;
+}
+
+.firstRow div {
+    background-color:white;
+    opacity: 0.7;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.firstRow div p {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.firstRow div h3 {
+    font-size: 35px;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.secondRow div {
+    background-color:white;
+    opacity: 0.7;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secondRow div p {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.secondRow div h3 {
+    font-size: 35px;
+}
+
+
+
+.thirdRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.thirdRow div {
+    background-color:white;
+    opacity: 0.7;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thirdRow div p {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.thirdRow div h3 {
+    font-size: 35px;
+}
+
+.feelsLike {
+    text-align: center;
+    font-size: 3px;
+
+}
+
+footer {
+    color: white;
+    border-top: 1px solid black;
+    margin-top: 16px;
+    padding: 16px 0 ;
+}
+
+
+.main-content {
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 48px;
+}
+
+
+img {
+    width: 500px;
+    height: 350px;
+}
+
+.address{
+    border-radius: 10px;
+    border: .5px solid gray;
+    outline: none;
+}
+
+.address::placeholder {
+    text-align: center;
+}
+
+.address:hover{
+    border-radius: 10px;
+    border: .5px solid gray;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+}
+
+
+form {
+    text-align: center;
+}
+
+form input {
+    opacity: 0.7;
+}
+
+form button {
+    opacity: 0.7;
+    font-family: arial;
+}
